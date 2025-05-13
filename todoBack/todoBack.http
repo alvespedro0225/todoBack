@@ -1,0 +1,15 @@
+@todoBack_HostAddress = http://localhost:5000
+
+PUT {{todoBack_HostAddress}}/todos/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name":"name",
+  "status":0,
+  "createdAt":"2025-05-12T19:14:27.9334735-03:00",
+  "updatedAt":"2025-05-12T19:14:27.9334735-03:00",
+  "id":1,
+  "description":"readable"
+}
+###
