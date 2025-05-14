@@ -1,4 +1,4 @@
-namespace todoBack.Models;
+namespace API.Data.Enums;
 
 public enum Status
 {

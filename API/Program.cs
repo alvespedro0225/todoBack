@@ -1,4 +1,4 @@
-using todoBack.Endpoints;
+using API.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,8 @@
-namespace todoBack.Models;
+using API.Data.Enums;
 
-public class Todo
+namespace API.Data.Models;
+
+public sealed class Todo
 {
     public required string Name { get; set; }
     public required Status Status { get; set; }
